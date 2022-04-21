@@ -83,7 +83,6 @@ def id(id_value:int = Query(None,description="Show id"),le=12,gt=7):
               return neww
               
 
-    for new in var:
-        return new["support"]
+   
 
 
